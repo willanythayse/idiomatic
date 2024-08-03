@@ -50,3 +50,6 @@ CREATE TABLE IDIOMA.languages(
     languages      		    VARCHAR2(4000),
     dt_writing   			DATE DEFAULT SYSDATE
 )tablespace tbs_idioma;
+
+
+select LANGUAGES_ABR, length(LANGUAGES) from languages;
